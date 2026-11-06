@@ -12,6 +12,8 @@
 
 ## 当前实际界面
 
+若网页读取器没有显示内嵌图片，可直接打开原图：[桌面沙盘](https://raw.githubusercontent.com/dh871145087-ui/pipi-earth-review/main/review-images/universe-1440-earth.png)、[手机任务](https://raw.githubusercontent.com/dh871145087-ui/pipi-earth-review/main/review-images/engagement-phone-task.png)、[手机全页](https://raw.githubusercontent.com/dh871145087-ui/pipi-earth-review/main/review-images/universe-390-earth.png)、[月球对比](https://raw.githubusercontent.com/dh871145087-ui/pipi-earth-review/main/review-images/agent-rabbit-comparison.png)。
+
 ### 桌面地月视角
 
 左边是真实 UTC 驱动的三维沙盘，右边是当前任务，下面是四站地图。地月、太空、月盘和地面视角读取同一时刻。
