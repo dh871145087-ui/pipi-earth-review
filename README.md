@@ -1,19 +1,20 @@
-# 皮皮的地球科学大冒险 · 公开评审副本
+# 皮皮的地球科学大冒险 · 八关故事版
 
-当前版本：`20261106-adventure-a9ef397f070b`。验证结果：**46 项单元测试、本地及线上资源各 36 项浏览器测试通过；254 个公网资源哈希一致。线上交互使用校验证书和哈希的本地传输，非实体手机验收**。
+版本：`20261106-stories-84026fa71e10`  
+验证：**56 项单元测试、本地及线上实际资源各 46 项浏览器测试全部通过；323 个公网资源哈希一致。线上浏览器通过校验证书和哈希的本地传输访问真实资源，不等同于实体手机验收**
 
-本次将影子关升级为“送冰淇淋”故事冒险：三张地图，捡水果后送朋友；阳光下融化快、树荫里慢，冰淇淋和奶昔都能送达。停下思考时暂停，完成后可自由玩，配有 21 条本地语音。送达暂不作为科学理解贴纸。
+本次新增七个故事：昼夜快递、跨洋生日连线、生日太空列车、南北旅行箱、地心探测船、岩浆旅行、板块造岛；影子送冰淇淋冒险保留。每关有三种初始变体，完成后可自由探索、换图重玩。操作条件已改造，不是只更换标题。
 
-- [直接玩送冰淇淋冒险](https://dh871145087-ui.github.io/pipi-earth-review/classic.html?adventure=ice)
-- [给 ChatGPT Pro 的本次差异评审材料](REVIEW.md)
-- [无需 JavaScript 的静态评审网页](https://dh871145087-ui.github.io/pipi-earth-review/review.html)
-- [完整三维游戏](https://dh871145087-ui.github.io/pipi-earth-review/)
-- [经典八关](https://dh871145087-ui.github.io/pipi-earth-review/classic.html)
-- [下载当前完整发布副本 ZIP](https://github.com/dh871145087-ui/pipi-earth-review/archive/refs/heads/main.zip)
+- [直接打开八关故事地图](https://dh871145087-ui.github.io/pipi-earth-review/classic.html)
+- [给 Pro 的当前差异评审](REVIEW.md)
+- [无需 JavaScript 的静态评审页](https://dh871145087-ui.github.io/pipi-earth-review/review.html)
+- [完整日地月沙盘](https://dh871145087-ui.github.io/pipi-earth-review/)
+- [下载完整发布副本 ZIP](https://github.com/dh871145087-ui/pipi-earth-review/archive/refs/heads/main.zip)
 - [发布资源校验清单](https://dh871145087-ui.github.io/pipi-earth-review/RELEASE.json)
+- [固定旧基线](https://github.com/dh871145087-ui/pipi-earth-review/blob/5a037cb367a48305c07862d496bdacc775d1eecd/REVIEW.md)
 
-请 Pro 实际试玩新增冒险，重点判断是否有趣、孩子是否看得懂并能自己做选择。真实孩子试玩、真实扬声器听感尚未验收。树荫只减慢融化，不会冷冻；起点可补满，不会因融化卡死。
+本轮新增 69 条固定本地配音，保留影子 21 条配音。双孩冒险记录各自保存，与科学贴纸分开。请 Pro 实际试玩，重点判断选择是否真实、因果是否可见、错误能否恢复及手机操作是否清楚。
 
-上一基线 `20261106-discovery-5b02e46c3616` 的共用儿童档案、手机因果同屏、影子自主站位和减少普通确认保持保留；详细旧说明在评审材料后半部，不代表本次新增内容。月亮回放、地心层片重做及火山追踪未纳入本批。
+真实孩子趣味性、自主操作、学习效果与真实扬声器听感尚未验收。测试通过不等于孩子喜欢玩。
 
-ZIP 对应当前 main，运行交互请使用本地 HTTP 服务。公开站与个人站浏览器存档互不共享。仓库只包含公开静态发布副本，不含个人服务器账户和部署配置。
+ZIP 是当前 main 静态副本，交互请通过本地 HTTP 服务运行。公开站与个人站的浏览器存档互不共享；仓库不含个人服务器账户和部署配置。

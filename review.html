@@ -1,60 +1,64 @@
 <!doctype html>
-<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>皮皮的清凉快递 · 送冰淇淋冒险评审</title><meta name="description" content="本轮四项改进的静态评审材料：共用档案、手机因果同屏、影子自主站位、直接操作与跨页保护。无需 JavaScript。"><style>
-:root{font-family:system-ui,"PingFang SC",sans-serif;color:#203a36;background:#f4f5ed;line-height:1.75}body{margin:0}main{max-width:1000px;margin:auto;padding:32px 22px 70px}h1{font-size:clamp(26px,5vw,42px);line-height:1.3}h2{margin-top:42px}a{color:#216b58}nav{display:flex;gap:12px;flex-wrap:wrap;margin:24px 0}nav a{padding:10px 18px;border-radius:12px;background:#216b58;color:white;text-decoration:none}figure{margin:24px 0;padding:14px;background:white;border-radius:18px;border:1px solid #d9e0d2}img{display:block;max-width:100%;height:auto;margin:auto;border-radius:10px}.phone{max-width:390px}figcaption{margin-top:12px;color:#50635b;font-size:14px}li{margin:8px 0}.meta{font-size:14px;color:#586c63}code{overflow-wrap:anywhere}table{border-collapse:collapse;width:100%}td,th{text-align:left;border-bottom:1px solid #d4dece;padding:12px;vertical-align:top}.notice{background:#e2edde;padding:16px;border-radius:14px}
-.phone{width:100%}*{box-sizing:border-box}td{overflow-wrap:anywhere}@media(max-width:600px){td,th{padding:7px;font-size:14px}}
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>皮皮的地球科学大冒险 · 八关故事版评审</title>
+<meta name="description" content="八关故事正式版静态评审：七关新增、影子冒险保留，真实选择与科学因果，当前版本和验收边界。无需JavaScript。">
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f5f5ed;color:#23483e;font:17px/1.8 system-ui,"PingFang SC",sans-serif}main{max-width:1020px;margin:auto;padding:32px 24px 64px}h1{font-size:clamp(27px,5vw,42px);line-height:1.3}h2{margin-top:36px;font-size:24px;line-height:1.4}a{color:#146955;text-underline-offset:3px;overflow-wrap:anywhere}a:focus-visible{outline:3px solid #3a9885;outline-offset:3px}code{font-size:.9em;overflow-wrap:anywhere;background:#e8ecdf;padding:2px 5px;border-radius:4px}p{margin:14px 0}li{margin:12px 0}img{display:block;max-width:min(100%,390px);height:auto;margin:22px auto;border:1px solid #b8ccbd;border-radius:16px;background:white}table{border-collapse:collapse;width:100%;font-size:16px}th,td{text-align:left;vertical-align:top;padding:14px;border-bottom:1px solid #c9d6c8}th{background:#e3edde}td:first-child{min-width:180px;font-weight:700}td:nth-child(2){white-space:nowrap}strong{color:#254c3b}
+@media(max-width:650px){body{font-size:16px}main{padding:20px 16px 44px}h2{font-size:22px}table,tbody,tr,td{display:block}thead{display:none}tr{background:#fffef5;border:1px solid #cfdbc8;border-radius:14px;padding:14px;margin:14px 0}td{padding:0;border:0;min-width:0!important}td:first-child{font-size:19px}td:nth-child(2){font-size:14px;color:#607263;margin:4px 0 9px}ul,ol{padding-left:24px}}
 </style></head><body><main>
-<p class="meta">本次送冰淇淋冒险 · <code>20261106-adventure-a9ef397f070b</code></p>
-<h1>皮皮的清凉快递：把冰淇淋送到朋友家</h1>
-<p>用户认为上一版仍然无聊。本次先把影子关变成一个有目标的小故事：推车捡水果，再给朋友送点心。故事冒险作为主入口，原观察实验仍可进入，其余关卡没有同时翻新。</p>
-<nav><a href="classic.html?adventure=ice">直接玩送冰淇淋</a><a href="./">完整游戏</a><a href="https://github.com/dh871145087-ui/pipi-earth-review/archive/refs/heads/main.zip">下载当前完整副本 ZIP</a><a href="RELEASE.json">核对发布版本</a></nav>
-<p class="notice">本次验证：<strong>46 项单元测试、本地及线上资源各 36 项浏览器测试通过；254 个公网资源哈希一致。线上交互使用校验证书和哈希的本地传输，非实体手机验收</strong>。请 Pro 实际试玩新增玩法，判断趣味性和孩子能否自主选择。若仅查看本页，请明确未实际试玩。下方旧四项说明作为上一基线保留，无需从头重复评审。</p>
-<h2>这次冒险怎么玩</h2>
-<ul>
-<li><strong>三张地图：</strong>给小兔送草莓、小熊的午后野餐、小猫的花园。起点、配料、朋友家和出发时刻不同。点地面推车，先捡水果，再去送达。</li>
-<li><strong>自己选路线和放伞：</strong>树荫随教学太阳时移动，每局两次放置或移动遮阳伞的机会，放置模式可取消。要找伞投到地面的影子，而不只是站在伞杆旁。</li>
-<li><strong>树荫只减慢融化：</strong>太阳下融化快，树荫中慢一些；树荫不会重新冻住冰淇淋。起点冰柜随时可补满。</li>
-<li><strong>两种成果都接受：</strong>凉爽的水果冰淇淋，或融化后分享的水果奶昔。融化不会导致死局，也不要求硬赢。</li>
-<li><strong>停下思考时暂停：</strong>只有行走或主动“等一会”才推进时间和融化；减少动态模式仍按沿路阴影计算。</li>
-<li><strong>送到以后自由玩：</strong>继续探索、同地图再送一次，或换下一张地图。暂不把故事送达认定为科学理解贴纸。</li>
-<li><strong>21 条本地配音：</strong>短故事提示与随时点读；自主阅读模式也可主动听提示。资源可用不等于真实扬声器听感已验收。</li>
-</ul>
-<figure><img class="phone" src="review-images/adventure-phone.png" alt="手机送冰淇淋冒险：推车、树荫、水果与朋友家"><figcaption>本次冒险手机截图。请实际操作判断路线和反馈是否有趣；静态画面不能替代试玩。<a href="review-images/adventure-phone.png">打开原图</a></figcaption></figure>
-<p>科学边界：春秋分、北纬 40°、平地条件，树冠和伞简化为水平遮光面；时间和融化速度为游戏加速示意，不是实际食品保存模型。</p>
-<h2>请 Pro 实玩后重点回答</h2>
-<ol><li>不先读说明，能否理解“捡水果—送朋友”，知道如何走、何时送？</li><li>路线、树荫和两次放伞是否有真正的选择，还是仍然随便点就结束？请给出具体地图和操作。</li><li>奶昔结果是否鼓励探索，又能保留树荫减慢融化的可观察差别？送达不能代替理解。</li><li>通关后是否愿意再送一次或换地图？哪些地方像冒险，哪些仍像教材操作？</li><li>390 像素宽时图标、阴影、按钮和反馈是否清楚好点，语音是否打断探索？</li></ol>
-<p class="notice"><strong>真实孩子试玩、真实扬声器听感尚未验收。</strong>自动化只能验证状态与操作链，不能证明孩子觉得有趣。请区分可复现缺陷、评审判断与需要儿童实测的假设。</p>
-<hr><h2>上一基线：四项改进与跨页档案保护</h2>
-
-<p class="meta">上一基线版本 · 2026-11-06 · <code>20261106-discovery-5b02e46c3616</code></p>
-<h2>上一基线：让孩子自己选择，看见科学原因</h2>
-<p>本轮只落实 Pro 上轮建议中的四项：统一儿童档案、手机因果同屏、影子关自主站位、减少普通操作确认。请以 <code>20261106-engagement-0b72a80ccd9d</code> 为基线复核新增差异，不必重做项目背景评审。</p>
-<nav><a href="./">完整三维游戏</a><a href="classic.html">经典八关</a><a href="https://github.com/dh871145087-ui/pipi-earth-review/archive/refs/heads/main.zip">下载完整副本 ZIP</a><a href="https://github.com/dh871145087-ui/pipi-earth-review/blob/main/REVIEW.md">详细评审说明</a></nav>
-<p class="notice">本页是无需 JavaScript 的静态材料。截图是实际浏览器画面；交互需要打开游戏，或下载当前 main 副本并通过本地 HTTP 服务运行。若仅阅读材料，请明确未实际试玩。<a href="RELEASE.json">RELEASE.json</a> 用于核对发布版本及 233 个游戏资源的校验值。</p>
-<h2>这次改了什么</h2>
-<table><thead><tr><th>上轮问题</th><th>本轮改变</th><th>复核重点</th></tr></thead><tbody>
-<tr><td>手机原因与结果分成两屏</td><td>任务旁增加读取同一模拟快照的简化科学小窗，与生活结果和操作一起呈现。</td><td>拨时间时，能否同时看见什么动了、哪里变暗了？</td></tr>
-<tr><td>沙盘与八关使用两套身份</td><td>共用两位船员、阅读与声音偏好、探索方式和各自进度；经典页可返回沙盘。</td><td>新→经典→新身份一致，阅读支持与挑战独立，孩子间不串记录。</td></tr>
-<tr><td>按钮替孩子走进树荫</td><td>孩子点击地面、拖动皮皮或用方向键选择站位；时间变化时人物不自动跟随阴影。</td><td>误放不成功；上午找到后，下午必须自己重新寻找。</td></tr>
-<tr><td>普通动作反复确认</td><td>换装和试放拼图直接响应，可以再选、清除或撤回；名称另可点读；猜想保留确认。</td><td>动作是否直接，取消猜想是否没有提交，未识字孩子能否自主试。</td></tr>
+<h1>皮皮的地球科学大冒险 · 八关故事版评审</h1>
+<p>版本：<code>20261106-stories-84026fa71e10</code></p>
+<p>测试与发布验证：<strong>56 项单元测试、本地及线上实际资源各 46 项浏览器测试全部通过；323 个公网资源哈希一致。线上浏览器通过校验证书和哈希的本地传输访问真实资源，不等同于实体手机验收</strong></p>
+<p><a href="https://dh871145087-ui.github.io/pipi-earth-review/classic.html">打开八关故事地图</a> · <a href="https://dh871145087-ui.github.io/pipi-earth-review/">完整日地月沙盘</a> · <a href="https://dh871145087-ui.github.io/pipi-earth-review/review.html">静态评审网页</a> · <a href="https://github.com/dh871145087-ui/pipi-earth-review/archive/refs/heads/main.zip">下载完整发布副本 ZIP</a> · <a href="https://dh871145087-ui.github.io/pipi-earth-review/RELEASE.json">RELEASE.json 校验清单</a></p>
+<h2>本次差异与评审范围</h2>
+<p>用户反馈“仍然无聊”后，已确认让其余七关全部故事化。此次新增昼夜、世界时间、公转、四季、地心、火山、板块七个故事；保留此前完成的影子送冰淇淋冒险。<strong>不是只换标题：孩子需要选择投递时机、移动路线、衣物、层片、观察位置或板块方向，成功条件来自这些操作形成的状态。</strong></p>
+<p>原观察实验入口仍保留；日地月沙盘继续可用。上一版的完整说明仅作<a href="https://github.com/dh871145087-ui/pipi-earth-review/blob/5a037cb367a48305c07862d496bdacc775d1eecd/REVIEW.md">固定旧基线</a>引用，不在本页重复累积。请 Pro 重点试玩本轮七项新增，同时回归影子冒险的入口和共用档案。</p>
+<p>本页是静态材料，无需 JavaScript；完整游戏需要浏览器执行 JavaScript。ZIP 对应当前 main，请核对 RELEASE.json；下载后通过本地 HTTP 服务运行。若只看文字、截图或代码，请明确没有实际试玩，不把静态材料称为交互验收。</p>
+<h2>八关里，孩子具体决定什么</h2>
+<table><thead><tr><th>入口</th><th>本次状态</th><th>孩子的操作与结果</th></tr></thead><tbody>
+<tr><td><a href="https://dh871145087-ui.github.io/pipi-earth-review/classic.html?adventure=day">皮皮的一天快递</a></td><td>新增</td><td>转动地球，选择清晨送早餐、白天送书包、夜晚送星星灯。送错时间物品留在车上，生活场景与同一地点的光照对应。</td></tr>
+<tr><td><a href="https://dh871145087-ui.github.io/pipi-earth-review/classic.html?adventure=world">跨洋生日连线</a></td><td>新增</td><td>并排观察两个朋友的窗景。朋友睡觉时寄留言，再找到两边都亮着的时机打生日电话；转动一次地球同时改变两个地方。</td></tr>
+<tr><td><a href="https://dh871145087-ui.github.io/pipi-earth-review/classic.html?adventure=ice">皮皮的清凉快递</a></td><td>保留（影子）</td><td>点地面推车，捡水果，选择路线与有限放伞位置，再送到朋友家。阳光下融化快、树荫里慢，冰淇淋与奶昔都能送达；停下思考时暂停。</td></tr>
+<tr><td><a href="https://dh871145087-ui.github.io/pipi-earth-review/classic.html?adventure=orbit">生日太空列车</a></td><td>新增</td><td>沿轨道拖动列车或按方向箭头，到半圈站拿包裹，再绕回起点小旗庆祝。直接跳位置或只在起点点庆祝不能完成。</td></tr>
+<tr><td><a href="https://dh871145087-ui.github.io/pipi-earth-review/classic.html?adventure=seasons">南北旅行箱</a></td><td>新增</td><td>同时看南北朋友的故事天气与白昼条，给两地选帽子或外套，半年后再比较。可换月份、改变地轴倾角观察，衣服选择可撤销。</td></tr>
+<tr><td><a href="https://dh871145087-ui.github.io/pipi-earth-review/classic.html?adventure=inside">修好地心探测船</a></td><td>新增</td><td>点选或拖动不同厚度的彩色层片，拼回斜切地球剖面；再匹配材料状态、分别拍下四层观察。错槽或错材料不算完成，可取回重试。</td></tr>
+<tr><td><a href="https://dh871145087-ui.github.io/pipi-earth-review/classic.html?adventure=volcano">一颗小岩浆的旅行</a></td><td>新增</td><td>移动远程探测器，在连续的上升、地表流动、冷却过程中追踪同一个标记。拍照必须同时处于合适站点与时机；可暂停、倒带重看。</td></tr>
+<tr><td><a href="https://dh871145087-ui.github.io/pipi-earth-review/classic.html?adventure=plates">给小岛造一座山</a></td><td>新增</td><td>拖动两块陆地，或分别用方向按钮移动，实际相对位移决定山脉、海脊或错动地形。先看图形任务卡再自己决定方向，收集三种地形。</td></tr>
 </tbody></table>
-<p>首次导学可跳过，回访直接玩，讲解随时重播。阅读支持与科学挑战分开；会识字不等于必须玩更难。</p>
-<h2>手机里的科学关系</h2>
-<ul><li>昼夜：太阳照射方向、地球、同一个家标记，与窗外昼夜对应。</li><li>月相：月亮位置、照亮的一面，以及同一时刻从地球看到的月盘。</li><li>白天找月亮：太阳、月亮在地平线上方或下方的位置；角度数值在详情层。</li><li>月球兔子：同一个月面标记、运动方向及固定空间方向参照。</li></ul>
-<p>小窗是同一状态的示意投影，不是第二套计时器，也不按真实距离比例绘制。本批没有新增两次记录间的连续回放。</p>
-<figure><img class="phone" src="review-images/discovery-day-phone.png" alt="手机昼夜任务：科学小窗与生活结果、时间操作同时呈现"><figcaption>昼夜任务：请检查孩子能否把家在地球上的位置与窗外光照联系起来。<a href="review-images/discovery-day-phone.png">打开原图</a></figcaption></figure>
-<figure><img class="phone" src="review-images/discovery-shadow-phone.png" alt="手机影子关：皮皮站位与可点击地面、树荫"><figcaption>影子关：请检查地面是否容易操作、反馈是否清楚、人物与阴影是否便于区分。<a href="review-images/discovery-shadow-phone.png">打开原图</a></figcaption></figure>
-<h2>档案迁移和跨页安全</h2>
-<p>经典进度现在按船员保存。无法判断属于谁的 little/big 旧记录只展示为“未分配的旧记录”，不归给任何孩子。原 <code>pipi-earth-v1</code> 不改写并另存首次备份；沙盘升级前原值保存到 <code>pipi-universe-v1-backup-before-profiles-v2</code>，首次备份不覆盖。</p>
-<p>每次修改先读取最新存档并合并本次变更，防止旧页覆盖另一页刚保存的记录。另一页切换身份或修改档案时，当前页停止声音与动画并重载，清空临时任务，阻止旧界面把动作写给新孩子。已保存记录保留；未保存的本轮操作会重置。浏览器返回缓存恢复时也检查档案。</p>
-<p>建议同一站点打开沙盘与经典两个标签页，切换船员，分别留下记录，确认另一页同步且两份记录保留，再切换孩子检查隔离。公开站和个人服务器是不同来源，各自保存浏览器存档，不提供云端同步。</p>
-<h2>影子玩法如何判断</h2>
-<p>阳光下反馈“这里还有点晒”，进入树荫反馈“脚下凉快啦”，程序不替孩子纠正。改时间后阴影移动，皮皮留在原地。不同时间自主找到树荫才产生不同观察，撤回不增加次数。</p>
-<p>这是固定纬度、春秋分、平地条件的教学模型；简化树冠投影不是任意真实树木的精确阴影。测量杆与树冠高度不同，长度记录和站位任务对应不同对象。经典“教学示意”与沙盘日期时间分别标明，未将八关重写成精密天文模型。</p>
-<h2>测试通过不等于孩子已经会玩</h2>
-<p>本地自动化：<strong>42 项单元测试 + 32 项端到端测试通过，零跳过</strong>。覆盖迁移、两人隔离、真实双页 UI 同步和记录保留、普通操作撤销、回访、影子点击/拖动/键盘及手机视口。</p>
-<p>线上资源验证：<strong>233 个文件（7,332,193 字节）通过公网证书校验与逐文件 SHA-256 比对</strong>。实际线上资源由本地 4175 端口承接后，完整 32 项端到端测试全过，零跳过、零 flaky；服务器配置和容器状态未变。这覆盖发布资源与交互，<strong>不是直接 IP 网站的真机验收</strong>。返回缓存恢复事件的覆盖不等于所有浏览器的真实 BFCache 命中；390 像素视口不等于真实手机触摸验收。</p>
-<p class="notice"><strong>真实孩子试玩、真实扬声器听感及长期学习效果尚未验收。</strong>请分别记录家长在哪里必须代读/代点、换起始条件后孩子能否再做、拿到贴纸后是否还愿意自己试。通关和贴纸不能代替理解。</p>
-<h2>请 Pro 聚焦五个问题</h2>
-<ol><li>小窗是否真正把原因与结果连起来，而不是增加了一张孩子忽略的图？</li><li>档案与跨页规则是否一致，有无记录丢失或错误归属路径？</li><li>影子关是否由孩子自己判断，误放与再次寻找是否有趣，触控目标是否好操作？</li><li>普通动作是否直接，点读和猜想确认是否仍有不必要门槛？</li><li>请区分可复现缺陷、儿童试玩假设、发布阻断及后续建议。</li></ol>
-<p>本批保留四个日地月任务和经典八关。<strong>月亮连续回放、地心层片重做、火山标记追踪不在本批范围</strong>。地心只调整普通拼图确认和撤销，不宣称已有新的立体层片玩法。先判断四项是否解决上轮重点，再决定后续工作。</p>
+<p>每关有 <strong>3 种初始变体</strong>。重玩可以改变出发时刻、城市组合、起点、旅行月份、层片顺序、探测器位置或地形任务顺序；这不等于每关新增三个独立大章节。完成后可以继续自由操作，再换任务图；错误选择有可恢复反馈，不要求一次答对。</p>
+<h2>两个孩子与语音</h2>
+<p>两位船员分别保存冒险完成记录，并继续共用沙盘与经典区的身份、阅读、声音和减少动态偏好。<strong>冒险记录与科学贴纸分开</strong>：送到点心、修好地图或完成故事，仅表示操作目标完成，不证明已理解科学原因，也不自动当作科学理解贴纸。</p>
+<p>本轮新增 <strong>69 条固定本地配音</strong>，影子原有 21 条本地配音保留。听着玩有短提示；自主阅读偏好下仍可主动点读。语音可用性与实际扬声器听感分别验收。手机图形操作和短句是主要入口，家长仍可展开科学边界说明。</p>
+<h2>当前截图</h2>
+<p><img src="review-images/stories-day.png" alt="昼夜：地球与生活投递场景" loading="lazy"></p>
+<p><a href="https://dh871145087-ui.github.io/pipi-earth-review/review-images/stories-day.png">昼夜原图</a></p>
+<p><img src="review-images/stories-inside.png" alt="地心：有厚度的层片与材料观察" loading="lazy"></p>
+<p><a href="https://dh871145087-ui.github.io/pipi-earth-review/review-images/stories-inside.png">地心原图</a></p>
+<p><img src="review-images/stories-volcano.png" alt="火山：同一标记和远程观察站" loading="lazy"></p>
+<p><a href="https://dh871145087-ui.github.io/pipi-earth-review/review-images/stories-volcano.png">火山原图</a></p>
+<p><img src="review-images/stories-plates.png" alt="板块：双侧移动与地形任务卡" loading="lazy"></p>
+<p><a href="https://dh871145087-ui.github.io/pipi-earth-review/review-images/stories-plates.png">板块原图</a></p>
+<p>截图用于检查布局和可读性，不能替代操作体验。</p>
+<h2>必须保留的科学边界</h2>
+<ul>
+<li>昼夜和世界时间使用教学太阳时与光照示意，不是现实民用作息表；转地球改变时刻，投递或角色动作不替代地球运动。</li>
+<li>公转列车是轨道旅行比喻，起点和半圈标记用于比较；不把按固定次数按钮当成一年概念理解。</li>
+<li>四季的衣服来自故事天气提示，不把实际天气简单等同于月份或白昼长短；换衣本身不证明理解四季。倾角和南北白昼比较仍需独立观察。</li>
+<li>地心层片为可操作而夸大厚度，不按真实比例。地幔主要是固态岩石，能非常缓慢地变形；外核是液态金属，内核主要为固态金属。</li>
+<li>火山追踪的是同一份物质：地下叫岩浆，到地表叫熔岩，冷却后逐渐凝固。过程加速；远程探测器是虚构教学装置，不引导孩子靠近真实火山。减少动态模式用显式步进，仍须选站与抓时机，拍照不会自动成功。</li>
+<li>板块使用加速的斜俯视剖面，屏幕上下箭头表示沿地面前后错动，不是垂直抬升。真实造山、裂谷和海脊演化漫长，不能把所有碰撞或分离视为同一过程。</li>
+<li>影子只减慢融化，不会神奇冷冻；补满发生在起点冰柜。融化速度是游戏示意，不是食品保存模型。</li>
+</ul>
+<h2>请 Pro 实际玩，再回答</h2>
+<ol>
+<li><strong>是否真的需要选择？</strong> 每关至少尝试一次不合适操作，再完成正确路径。程序是否替孩子做了核心决定？有没有可以无视条件连续点就过的路径？</li>
+<li><strong>能否看见因果？</strong> 操作改变了什么，观察结果是否同屏、具体且一致？请特别看昼夜光照、火山同一标记和板块相对运动。</li>
+<li><strong>能否不依赖识字自己玩？</strong> 390 像素宽度下，图形目标是否容易点中，点读能否解释下一步，提示是否抢话或遮挡？</li>
+<li><strong>是否愿意再试？</strong> 初始条件改变以后，孩子是否仍有事情可发现？完成反馈和自由探索有没有理由让人多玩一次？</li>
+<li><strong>是否可靠？</strong> 切换孩子后冒险记录是否隔离；返回观察实验与日地月是否保持同一身份；重玩是否保留已保存成果？</li>
+<li>请把发现分成可复现缺陷、对趣味性的评审判断、需要孩子试玩验证的假设，并写清版本、关卡、操作步骤和实际结果。</li>
+</ol>
+<p><strong>真实孩子的趣味性、自主操作和学习效果尚未验收；真实扬声器听感尚未验收。</strong> 自动化通过只能支持所覆盖的逻辑与操作链，不能证明孩子喜欢玩。家庭试玩分别记录：哪里需要家长代读/代点、换起始条件后能否再做、故事完成后是否愿意主动继续。</p>
+<p>本轮不新增日地月任务，不加入月亮连续回放，也不扩大到更多模块。先验证八个现有模块是否从“可操作教材”变成有目标、有选择、可反复探索的故事。</p>
 </main></body></html>
