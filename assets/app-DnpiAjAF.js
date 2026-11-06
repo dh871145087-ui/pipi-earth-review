@@ -1,4 +1,4 @@
-import{p as xc,t as Sc,i as $h,C as Zh,D as td,I as Pl,g as wn,J as Kh,l as Jh}from"./profiles-DdH51Fh5.js";/**
+import{p as xc,u as Sc,i as $h,D as Zh,E as td,J as Pl,g as wn,K as Kh,l as Jh}from"./profiles-B1yNwb1F.js";/**
     @preserve
 
     Astronomy library for JavaScript (browser and Node.js).
@@ -4319,6 +4319,7 @@ void main() {
   <header class="masthead wrap">
     <div class="mast-brand">${xc(56)}<div><p>皮皮的宇宙飞船</p><h1>日地月实验室</h1></div></div>
     <div class="mast-actions">
+      <a class="classic-link" href="./classic.html?adventure=ice">🍦 <span>送冰淇淋冒险</span></a>
       <a class="classic-link" href="./classic.html">🌎 <span>地球八关</span></a>
       <button class="crew-button" type="button" data-action="crew" aria-haspopup="dialog"><span id="crew-avatar" aria-hidden="true">🧑‍🚀</span> <span id="crew-label">飞船设置</span></button>
     </div>
