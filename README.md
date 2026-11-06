@@ -1,6 +1,6 @@
 # 皮皮的地球科学大冒险 · 公开评审副本
 
-[阅读评审材料](https://dh871145087-ui.github.io/pipi-earth-review/review.html) · [打开完整游戏](https://dh871145087-ui.github.io/pipi-earth-review/)
+[给 ChatGPT Pro 的评审页面](REVIEW.md) · [图文网页](https://dh871145087-ui.github.io/pipi-earth-review/review.html) · [打开完整游戏](https://dh871145087-ui.github.io/pipi-earth-review/)
 
 固定版本：`20261106-engagement-0b72a80ccd9d`。本仓库仅含公开静态游戏、界面截图和评审材料，不含服务器配置、凭据或儿童存档。游戏资源与该版本个人服务器正式构建一致，未来更新不自动同步。
 
